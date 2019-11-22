@@ -1,0 +1,8 @@
+{
+  "pageLoadTimeout": 1000000,
+  "reporter": "mochawesome",
+  "env": {
+    "adminurl": "http://albuatweb-278287743.ap-southeast-1.elb.amazonaws.com/web/vpdirect/login.do"
+  },
+  "projectId": "bkjzm7"
+}

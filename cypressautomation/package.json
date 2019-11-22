@@ -1,0 +1,18 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run --spec cypress\\integration\\examples\\Reports.js",
+    "BrowserTest":"npm run test -- --browser chrome",
+    "headTest":"npm run test -- --headed"
+  },
+  "author": "ganga",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.6.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0"
+  }
+}

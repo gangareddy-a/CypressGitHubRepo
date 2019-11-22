@@ -1,0 +1,10 @@
+{
+  "urladmin":"http://albuatweb-278287743.ap-southeast-1.elb.amazonaws.com/web/vpdirect/login.do",
+  "Username": "masteradm12",
+  "Pass": "mFino@9999",
+  "SearchValue": "SAP",
+  "ReportName":"Movement of SAP GL Report",
+  "Datevalue":"18/02/2019",
+  "ArrayValue":["raju","ravi"],
+  "SuccessMSG":"Record Created Successfully."
+}
