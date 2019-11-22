@@ -15,9 +15,15 @@ describe('My First Testsuite',function()
 
         const login = new LoginPage()
         const report =new ReportPage()
+<<<<<<< HEAD
         cy.visit(this.data.urladmin)
        //cy.log('url from global env')
        //cy.visit(Cypress.env('adminurl'))
+=======
+        //cy.visit(this.data.urladmin)
+       //cy.log('url from global env')
+       cy.visit(Cypress.env('adminurl'))
+>>>>>>> automationdevelo
         login.getUserName().type(this.data.Username)
         login.getPass().type(this.data.Pass)
         login.getSubmit().click()
